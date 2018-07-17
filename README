@@ -1,7 +1,7 @@
 Wesley
 
 Recursively searches a directory path for image files (JPEG, GIF, PNG) and
-applies lossless compression to files in-place.  This can be particularly 
+applies lossless compression to files in-place.  This can be particularly
 handy for optimizing images in an existing codebase, especially when you are
 geared for working from the Linux or Mac command-line.
 
@@ -22,13 +22,10 @@ don't have jpegtran installed, Wesley will skip JPEG optimizations.
 PACKAGES
 -------------------
 
-You're going to want to check the server you're working on to see which of 
+You're going to want to check the server you're working on to see which of
 these packages you may already have, or need to install. You can still run
 Wesley if you're missing one or more of these packages.  Fewer optimizations
 will be made, however.
-
-If you're working on a Mac, try using Fink to install these packages before
-compiling on your own from source.
 
 jpegtran
 http://sylvana.net/jpegcrop/jpegtran/
@@ -42,6 +39,23 @@ http://pmt.sourceforge.net/pngcrush/
 ImageMagick
 http://www.imagemagick.org/
 
+-------------------
+INSTALLATION
+-------------------
+
+MAC:
+
+1. Open the terminal
+
+2. Install [Homebrew](https://brew.sh/) if you don't have it already
+
+3. Install dependencies with this command ` sh install-on-mac.sh `
+
+LINUX:
+
+1. Open the terminal
+
+2. Install dependencies with this command ` sh install-on-linux.sh `
 
 -------------------
 USAGE
