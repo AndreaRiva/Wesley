@@ -55,7 +55,7 @@ LINUX:
 
 1. Open the terminal
 
-2. Install dependencies with this command ` sh install-on-linux.sh `
+2. Install dependencies with this command ` sudo sh install-on-linux.sh `
 
 -------------------
 USAGE
